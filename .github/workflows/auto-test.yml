@@ -23,8 +23,8 @@ jobs:
         run: npm ci -q
 
       - name: Run SecTester
-        run: npm run test:sec
+        run: npm run test:sec -- -t 'testimonials'
         env:
-          BRIGHT_TOKEN: ${{ secrets.BRIGHT_TOKEN }}
-          BRIGHT_HOSTNAME: app.neuralegion.com
-          BROKEN_CRYSTALS_URL: http://localhost:3000
+         BRIGHT_TOKEN: ${{ secrets.BRIGHT_TOKEN }}
+         BRIGHT_HOSTNAME: app.neuralegion.com
+         BROKEN_CRYSTALS_URL: http://localhost:3000
