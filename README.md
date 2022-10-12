@@ -1,4 +1,5 @@
 # SecTester SDK demo project for Broken Crystals
+# Akira is adding a comment to the readme
 
 ## Table of contents
 
